@@ -20,11 +20,14 @@ st.divider()
 # ------------------------------
 # Load Trained Model
 # ------------------------------
+import os
+import pickle
 
-
+# Correct path for Streamlit Cloud
 model_path = os.path.join(os.path.dirname(__file__), "..", "models", "crop_model.pkl")
 
 model = pickle.load(open(model_path, "rb"))
+
 
 
 
