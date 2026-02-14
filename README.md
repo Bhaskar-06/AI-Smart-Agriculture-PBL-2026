@@ -121,5 +121,4 @@ AI-Smart-Agriculture-PBL-2026/
 
 Bhaskar B  
 G A Srujan Gouda
-
-PBL 2026
+PBL-2
