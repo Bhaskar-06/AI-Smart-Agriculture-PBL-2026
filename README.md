@@ -37,18 +37,40 @@ District-level crop dataset containing:
 - Production
 
 ---
+---
 
 ## 🏗 System Architecture
 
-User Input (Streamlit UI)
-        ↓
-Feature Processing (Pandas)
-        ↓
-Trained ML Model (Random Forest Regressor)
-        ↓
-Production Prediction
-        ↓
-Result Displayed to User
+### 1️⃣ Data Layer
+- District-level agricultural dataset (CSV)
+- Features: Area, Yield, Crop Type
+- Target: Production (MT)
+
+### 2️⃣ Model Training Layer
+- Data Cleaning using Pandas
+- Train-Test Split (80/20)
+- Model: Random Forest Regressor
+- Model saved as: `crop_model.pkl`
+
+### 3️⃣ Application Layer
+- Streamlit Web Interface
+- User inputs:
+  - Area (Hectares)
+  - Yield (MT per Hectare)
+  - Crop Type (Vegetable / Fruit)
+
+### 4️⃣ Prediction Flow
+
+User Input  
+⬇  
+Feature Processing (Pandas)  
+⬇  
+Trained ML Model  
+⬇  
+Production Prediction  
+⬇  
+Result Displayed in UI
+
 
 ---
 
