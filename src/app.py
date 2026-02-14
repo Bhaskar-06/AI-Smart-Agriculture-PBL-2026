@@ -1,6 +1,6 @@
 import streamlit as st
-import pandas as pd
 import pickle
+import pandas as pd
 import os
 
 # ------------------------------
@@ -14,21 +14,16 @@ st.set_page_config(
 
 st.title("🌾 AI Smart Agriculture Production Predictor")
 st.markdown("Predict Crop Production using Area & Yield")
+
 st.divider()
 
 # ------------------------------
-# Load Trained Model (SAFE METHOD)
+# Load Trained Model (Cloud Safe)
 # ------------------------------
-try:
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    model_path = os.path.join(BASE_DIR, "..", "models", "crop_model.pkl")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+model_path = os.path.join(BASE_DIR, "models", "crop_model.pkl")
 
-    with open(model_path, "rb") as f:
-        model = pickle.load(f)
-
-except Exception as e:
-    st.error("Model file not found or failed to load.")
-    st.stop()
+model = pickle.load(open(model_path, "rb"))
 
 # ------------------------------
 # Crop Type Selection
@@ -56,7 +51,7 @@ yield_val = st.number_input(
 st.divider()
 
 # ------------------------------
-# Prediction
+# Prediction Button
 # ------------------------------
 if st.button("Predict Production"):
 
@@ -64,21 +59,21 @@ if st.button("Predict Production"):
         input_df = pd.DataFrame(
             [[area, yield_val, 0, 0]],
             columns=[
-                "Area_Hectare_Veg",
-                "Yield_MT_per_Hectare_Veg",
-                "Area_Hectare_Fruit",
-                "Yield_MT_per_Hectare_Fruit",
-            ],
+                'Area_Hectare_Veg',
+                'Yield_MT_per_Hectare_Veg',
+                'Area_Hectare_Fruit',
+                'Yield_MT_per_Hectare_Fruit'
+            ]
         )
     else:
         input_df = pd.DataFrame(
             [[0, 0, area, yield_val]],
             columns=[
-                "Area_Hectare_Veg",
-                "Yield_MT_per_Hectare_Veg",
-                "Area_Hectare_Fruit",
-                "Yield_MT_per_Hectare_Fruit",
-            ],
+                'Area_Hectare_Veg',
+                'Yield_MT_per_Hectare_Veg',
+                'Area_Hectare_Fruit',
+                'Yield_MT_per_Hectare_Fruit'
+            ]
         )
 
     prediction = model.predict(input_df)
