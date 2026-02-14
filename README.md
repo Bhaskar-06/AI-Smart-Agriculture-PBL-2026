@@ -94,6 +94,11 @@ Result Displayed in UI
 streamlit run src/app.py
 
 ---
+---
+
+## 🖥 Application Demo
+
+![App Screenshot](app_demo.png)
 
 ## 📁 Project Structure
 
