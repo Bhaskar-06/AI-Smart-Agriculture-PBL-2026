@@ -102,26 +102,28 @@ streamlit run src/app.py
 ---
 ---
 
+## 🌐 Live Application
+
+https://ai-smart-agriculture-pbl-2026-csmdjsfszzrbzoxgznflnm.streamlit.app/
+---
+---
+
+
 
 ## 📁 Project Structure
 
-```
 AI-Smart-Agriculture-PBL-2026/
 │
-├── data/                # Dataset files
-├── models/              # Saved ML model (.pkl)
-├── src/                 # Source code
-│   ├── train_model.py   # Model training script
-│   └── app.py           # Streamlit web app
-│
-├── app_demo.png         # Application screenshot
-├── requirements.txt     # Python dependencies
-├── README.md            # Project documentation
-├── .gitignore
-└── LICENSE
-```
-
-
+├── data/
+├── models/
+│   └── crop_model.pkl
+├── src/
+│   └── app.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+---
+---
 ## 👨‍💻 Author
 
 Bhaskar B  
