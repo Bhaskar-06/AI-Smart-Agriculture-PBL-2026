@@ -28,6 +28,16 @@ Accurate crop production prediction helps:
 Model Used: Random Forest Regressor
 
 ---
+---
+
+## 📊 Model Performance
+
+- Model Used: Random Forest Regressor
+- R² Score: 0.9678
+- Mean Absolute Error (MAE): 42,552 MT
+
+The model demonstrates strong predictive performance for district-level crop production.
+
 
 ## 📊 Dataset
 
@@ -37,10 +47,40 @@ District-level crop dataset containing:
 - Production
 
 ---
+---
 
 ## 🏗 System Architecture
 
-(Add architecture.png here later)
+### 1️⃣ Data Layer
+- District-level agricultural dataset (CSV)
+- Features: Area, Yield, Crop Type
+- Target: Production (MT)
+
+### 2️⃣ Model Training Layer
+- Data Cleaning using Pandas
+- Train-Test Split (80/20)
+- Model: Random Forest Regressor
+- Model saved as: `crop_model.pkl`
+
+### 3️⃣ Application Layer
+- Streamlit Web Interface
+- User inputs:
+  - Area (Hectares)
+  - Yield (MT per Hectare)
+  - Crop Type (Vegetable / Fruit)
+
+### 4️⃣ Prediction Flow
+
+User Input  
+⬇  
+Feature Processing (Pandas)  
+⬇  
+Trained ML Model  
+⬇  
+Production Prediction  
+⬇  
+Result Displayed in UI
+
 
 ---
 
@@ -54,6 +94,14 @@ District-level crop dataset containing:
 streamlit run src/app.py
 
 ---
+---
+
+## 🖥 Application Demo
+
+![App Screenshot](app_demo.png)
+---
+---
+
 
 ## 📁 Project Structure
 
@@ -77,4 +125,6 @@ AI-Smart-Agriculture-PBL-2026/
 ## 👨‍💻 Author
 
 Bhaskar B  
-PBL 2026
+G A Srujan Gouda
+
+PBL-2
