@@ -98,7 +98,8 @@ streamlit run src/app.py
 
 ## 🖥 Application Demo
 
-![App Screenshot](app_demo.png)
+![Screenshot 2026-02-14 222443.png
+](app_demo.png)
 
 ## 📁 Project Structure
 
