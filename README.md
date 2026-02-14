@@ -28,6 +28,16 @@ Accurate crop production prediction helps:
 Model Used: Random Forest Regressor
 
 ---
+---
+
+## 📊 Model Performance
+
+- Model Used: Random Forest Regressor
+- R² Score: 0.9678
+- Mean Absolute Error (MAE): 42,552 MT
+
+The model demonstrates strong predictive performance for district-level crop production.
+
 
 ## 📊 Dataset
 
