@@ -1,0 +1,31 @@
+Area_Hectare_Veg,Production_MT_Veg,Yield_MT_per_Hectare_Veg,Value_Lakh_Rupees_Veg,District Name,Data_Level_Veg,Crop_Type_Veg,Area_Hectare_Fruit,Production_MT_Fruit,Yield_MT_per_Hectare_Fruit,Value_Lakh_Rupees_Fruit,Data_Level_Fruit,Crop_Type_Fruit
+50738,887983,17.5,37780,Bagalkote,District,Vegetable,11580,213588,18.44,30997,District,Fruit
+28661,534917,18.66,76395,Ballari,District,Vegetable,11267,214887,19.07,48926,District,Fruit
+39314,821620,20.9,158846,Belagavi,District,Vegetable,16650,357062,21.44,71802,District,Fruit
+8099,153517,18.96,14560,Bengaluru Rural,District,Vegetable,12642,176984,14.0,31379,District,Fruit
+4382,114428,26.12,10024,Bengaluru Urban,District,Vegetable,4902,79460,16.21,17504,District,Fruit
+9552,160112,16.76,32318,Bidar,District,Vegetable,4893,123135,25.16,11235,District,Fruit
+16968,344109,20.28,30118,Chamarajanagara,District,Vegetable,25698,755670,29.41,113351,District,Fruit
+26593,1038950,39.07,198314,Chikkaballapura,District,Vegetable,17293,293929,17.0,54306,District,Fruit
+15007,303691,20.24,36692,Chikkamagaluru,District,Vegetable,8115,176295,21.72,72736,District,Fruit
+49257,972030,19.73,256734,Chitradurga,District,Vegetable,14685,297246,20.24,70781,District,Fruit
+53,403,7.64,79,Dakshina Kannada,District,Vegetable,8018,181464,22.63,48003,District,Fruit
+10917,176762,16.19,15496,Davangere,District,Vegetable,5184,95241,18.37,15306,District,Fruit
+19317,370024,19.16,75549,Dharwad,District,Vegetable,8807,90038,10.22,32329,District,Fruit
+33463,321501,9.61,29233,Gadag,District,Vegetable,2490,48198,19.36,6471,District,Fruit
+16723,235148,14.06,64775,Hassan,District,Vegetable,6210,121152,19.51,39688,District,Fruit
+16396,359648,21.94,50501,Haveri,District,Vegetable,10123,158788,15.69,41081,District,Fruit
+14353,254181,17.71,54334,Kalaburagi,District,Vegetable,6525,159434,24.43,51448,District,Fruit
+572,11718,20.5,1173,Kodagu,District,Vegetable,14429,367737,25.49,67768,District,Fruit
+38450,1223897,31.83,116538,Kolar,District,Vegetable,53049,499382,9.41,108044,District,Fruit
+22877,380264,16.62,46390,Koppal,District,Vegetable,8153,158319,19.42,18930,District,Fruit
+8846,243806,27.56,15686,Mandya,District,Vegetable,8415,175182,20.82,22503,District,Fruit
+13127,405170,30.87,11522,Mysuru,District,Vegetable,22338,527174,23.6,63006,District,Fruit
+9175,169297,18.45,36221,Raichur,District,Vegetable,4614,93849,20.34,28582,District,Fruit
+1660,16974,10.22,695,Ramanagara,District,Vegetable,36118,406429,11.25,40006,District,Fruit
+627,11220,17.89,2223,Shivamogga,District,Vegetable,21761,579139,26.61,143970,District,Fruit
+7259,306574,42.23,51832,Tumakuru,District,Vegetable,33448,487385,14.57,132129,District,Fruit
+475,7703,16.21,2188,Udupi,District,Vegetable,2999,71690,23.9,14079,District,Fruit
+434,8305,19.14,1342,Uttar Kannada,District,Vegetable,12926,308080,23.83,39403,District,Fruit
+52842,966373,18.29,67950,Vijayapura,District,Vegetable,36672,916574,24.99,169228,District,Fruit
+5049,84436,16.72,16392,Yadgiri,District,Vegetable,1662,52682,31.7,22003,District,Fruit
