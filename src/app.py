@@ -20,10 +20,12 @@ st.divider()
 # ------------------------------
 # Load Trained Model
 # ------------------------------
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-model_path = os.path.join(BASE_DIR, "models", "crop_model.pkl")
+
+
+model_path = os.path.join(os.path.dirname(__file__), "..", "models", "crop_model.pkl")
 
 model = pickle.load(open(model_path, "rb"))
+
 
 
 
