@@ -40,7 +40,15 @@ District-level crop dataset containing:
 
 ## 🏗 System Architecture
 
-(Add architecture.png here later)
+User Input (Streamlit UI)
+        ↓
+Feature Processing (Pandas)
+        ↓
+Trained ML Model (Random Forest Regressor)
+        ↓
+Production Prediction
+        ↓
+Result Displayed to User
 
 ---
 
