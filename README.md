@@ -120,4 +120,5 @@ AI-Smart-Agriculture-PBL-2026/
 ## 👨‍💻 Author
 
 Bhaskar B  
+G A Srujan Gouda
 PBL 2026
