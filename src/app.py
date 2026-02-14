@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import os
 
 # ------------------------------
 # Page Configuration
@@ -19,7 +20,12 @@ st.divider()
 # ------------------------------
 # Load Trained Model
 # ------------------------------
-model = pickle.load(open("models/crop_model.pkl", "rb"))
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+model_path = os.path.join(BASE_DIR, "models", "crop_model.pkl")
+
+model = pickle.load(open(model_path, "rb"))
+
+
 
 # ------------------------------
 # Crop Type Selection
