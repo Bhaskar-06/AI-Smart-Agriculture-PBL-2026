@@ -102,12 +102,6 @@ streamlit run src/app.py
 ---
 ---
 
-## 🌐 Live Application
-
-https://ai-smart-agriculture-pbl-2026-csmdjsfszzrbzoxgznflnm.streamlit.app/
----
----
-
 
 
 ## 📁 Project Structure
