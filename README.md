@@ -1,7 +1,7 @@
 # 🌾 AI Smart Agriculture Production Predictor
 
 An AI-powered agricultural analytics system that predicts crop production using Machine Learning (Random Forest Regressor).
-
+https://github.com/Bhaskar-06/AGRI-APP?tab=readme-ov-file
 ---
 
 ## 📌 Project Overview
